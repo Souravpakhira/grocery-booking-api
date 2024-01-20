@@ -11,8 +11,6 @@ COPY . .
 EXPOSE 3000
 
 RUN npm run build
-# npm run db:migrate && \
-# npm run db:seed
 
 
 CMD ["npm", "run", "start:prod"]
